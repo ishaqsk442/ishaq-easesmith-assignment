@@ -14,7 +14,7 @@ const ProductsList = ({ setShowFilters }) => {
   const productsPerPage = 9;
   const [products] = useState([
     // Sample product data
-    { id: 1, name: 'Monsterra', description: 'Indoor plants, low maintenance', rating: 4.9, price: 299,imageUrl: 'https://res.cloudinary.com/dpetyh8cc/image/upload/v1729486238/product1_wpky3y.png'},
+    { id: 1, name: 'Monsterra', description: 'Indoor plants, low maintenance', rating: 4.9, price: 299,imageUrl: 'https://cdn.pixabay.com/photo/2024/03/05/14/55/ai-generated-8614707_1280.jpg'},
     { id: 2, name: 'Monsterra', description: 'Indoor plants, low maintenance', rating: 4.9, price: 299 ,imageUrl: 'https://res.cloudinary.com/dpetyh8cc/image/upload/v1729486235/product2_ngjukf.png'},
     { id: 3, name: 'Monsterra', description: 'Indoor plants, low maintenance', rating: 4.9, price: 299 ,imageUrl: 'https://res.cloudinary.com/dpetyh8cc/image/upload/v1729486237/product3_xtowyd.png'},
     { id: 4, name: 'Monsterra', description: 'Indoor plants, low maintenance', rating: 4.9, price: 299,imageUrl: 'https://res.cloudinary.com/dpetyh8cc/image/upload/v1729486238/product1_wpky3y.png'},
